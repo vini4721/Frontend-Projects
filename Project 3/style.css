@@ -1,0 +1,49 @@
+body{
+  background-color: black;
+}
+
+.container{
+  display: flex;
+  justify-content: center;
+}
+
+.main-box{
+  box-shadow: 0 0 50px 5px white;
+  margin: 50px;
+  min-height: 700px;
+  border-radius: 50px;
+  min-width: 50%;
+}
+
+.heading{
+  /* border: solid 1px blue; */
+  color: white;
+  display: flex;
+  justify-content: center;
+  /* margin: auto; */
+}
+
+.add-task{
+  display: inline-block;
+  margin: 0 30px;
+}
+
+.add-task button{
+  border-radius: 50px;
+  border: none;
+  background-image: linear-gradient(rgb(167, 167, 167),rgb(158, 69, 69));
+}
+
+.add-task input{
+  border-radius: 50px;
+}
+
+.display-tasks{
+  /* border: solid 2px red; */
+  color: white;
+  margin-left: 30px;
+}
+
+.tasks-buttons[data-display = "0"] {
+  display: none;
+}
